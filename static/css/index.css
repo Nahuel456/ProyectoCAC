@@ -1,6 +1,10 @@
 /* Paleta de colores */
 :root{
-    --bg-color: #15074b ;
+    --bg-color: #bd0725 ;
+    --primary-color: #c23131;
+    --secondary-color: #807981f2;
+    --third-color: #0f0f0f;
+    --third-bis-color: #c23131f2;
 
 
 
@@ -27,6 +31,7 @@ a{
 }
 
 .header{
+    background-color: transparent;
     position: fixed;
     top:0;
     left: 0;
@@ -50,10 +55,14 @@ nav{
 
 #titulo{
     margin: 120px auto;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;     
 }
 
 #productos{
-    background-color: rgb(28, 24, 150);
+    background-color: var(--primary-color);
     margin: 120px auto;
 }
 
